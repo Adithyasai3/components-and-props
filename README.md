@@ -7,7 +7,5 @@
 - Props
   - Passing Props
   - Accessing Props
-- Creating React App
-  - React Project Setup
-  - Starting the Application
+
 
