@@ -16,11 +16,16 @@
 
       const Welcome = (props)=>{
       const {name,greeting} = props;
-      return <h1 className = "message">{greeting}-{name}</h1>
+      return <h1 className = "message">{greeting} {name}</h1>
       }
      
       const root = ReactDOMClient.createRoot(document.getElementById("root"));
-      root.render(<Welcome name="Adithya" greeting="Hello"/>);
+      root.render(
+      <div>
+        <Welcome name="Adithya" greeting="Hello"/>
+        <Welcome name="Adithyasai" greeting="Hello"/>
+      </div>
+      );
       
     </script>
   </body>
