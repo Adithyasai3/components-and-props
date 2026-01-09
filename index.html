@@ -14,8 +14,8 @@
       import React from "https://esm.sh/react@19/?dev";
       import ReactDOMClient from "https://esm.sh/react-dom@19/client?dev";
 
-      const Welcome = (props)=>{
-      const {name,greeting} = props;
+      const Welcome = ({name,greeting})=>{
+
       return <h1 className = "message">{greeting} {name}</h1>
       }
 
@@ -23,7 +23,7 @@
       root.render(
       <div>
         <Welcome name="Adithya" greeting="Hello"/>
-        <Welcome name="Adithyasai" greeting="Hello"/>
+        <Welcome name="sai" greeting="Hello"/>
       </div>
       );
     </script>
